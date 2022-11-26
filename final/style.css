@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@media(min-width:320px) and (max-width:768px){
+    nav{
+        position: absolute;
+        margin-top: 2000000px;
+    }
+  
+    
+    HEADer{
+       
+        text-align: center;
+        align-items: center;
+        
+       
+        margin-top: 40px;
+    }
+    .pic{
+        text-align: left;
+        background-image: url(./resources/image/jane.jpg);
+        height: 50vh;
+    }
+}
+@media(min-width:787px) and (max-width:1440px){
+    *{
+           /* border: 1px solid red;    */
+        margin: 0;
+        padding: 0;
+    }
+    .content{
+        display: grid;
+        grid-template-columns: 60%  40%;
+        height: 140vh;
+        width: 100%;
+       
+    }
+    nav{
+        display: flex;
+        background-color: black;
+        height: 50px;
+        justify-content: space-between;
+       
+
+    }
+    nav ul{
+        display: flex;
+        list-style: none;
+    }
+    nav ul li{
+        padding: 10px;
+        
+    }
+    nav ul li:hover{
+        background-color: white;
+    }
+    nav ul li img{
+        width: 30px;
+        height: 30px;
+    }
+    .right{
+        justify-items: flex-end;
+    }
+    .text{
+        text-align: center;
+        margin: 30px;
+        grid-template-columns: span 2;
+        padding: 10px;
+    }
+    .PIC{
+        text-align: left;
+        background-image: url(./resources/image/jane.jpg);
+        background-position: center;
+        background-size: cover;
+        grid-template-columns: span 2;
+        height: 120vh;
+        display: flex;
+        flex-direction: row;
+        color: white;
+       
+
+
+    }
+    span{
+        background-color: black;
+        color: white;
+    }
+    .PIC h2{
+        margin: 10px;
+        font-weight: 100;
+        font-size: 50px;
+    }
+    .PIC a{
+        padding: 10px;
+        border: 2px solid white;
+       
+        
+    }
+    .PIC a:hover{
+        color: black;
+        background-color: white;
+    }
+    .PIC div{
+          margin-top: 300px;  
+          padding: 50px;
+        
+    }
+    .PIC div a{
+        background-color: grey;
+    }
+    
+    .panel1{
+        margin-left: 50px;
+        justify-content: left;
+       
+        margin-top: 30px;
+    }
+    
+    .panel1 img{
+       
+        width: 100%;
+        height: 100vh;
+    }
+    .panel1 h2{
+        margin: 10px;
+    }
+    .content{
+        width: 100%;
+        margin-left: 0px;
+    
+    }
+    .content div{
+        width: 700px;
+    }
+    .name{
+       margin-top: 10px;
+    }
+    .name img{
+        width: 440px;
+        height: 300px;
+        margin-right: 20px;
+    }
+    .name p {
+        width: 440px;
+        padding: 10px;
+    }
+    .name div{
+        margin-top: -10px;
+        background-color: black;
+        padding: 10px;
+        color: white;
+        width: 420px;
+        height: 90px;
+        padding: 10px;
+    }
+    .pop{
+        margin-top: 20px;
+        
+        color: white;
+        
+    }
+    .pop h2{
+        width: 420px;
+        background-color: black;
+        padding: 10px;
+    }
+    .pop ul li img{
+        width: 100px;
+        height: 100px;
+    }
+    .LK{
+        display: flex;
+        justify-content: space-between;
+        background-color: black;
+        color: white;
+        
+    }
+    .two{
+        margin-left: 600px;
+        margin-top: -10px;
+    }
+    footer{
+        background-color: grey;
+        padding-bottom: 50px;
+    }
+    footer a{
+        background-color: black;
+        padding: 10px;
+       
+    }
+    
+}
